@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from '../../style/Home.module.css'
 import aboutImage from '../../../public/about.png';
+import diagnosis from '../../../public/diagnosis.png';
+import budget from '../../../public/budget.png';
+import maintenance from '../../../public/maintenance.png';
+import scheduling from '../../../public/scheduling.png';
 
 
 const Home: React.FC = () => {
@@ -35,6 +39,33 @@ const Home: React.FC = () => {
             <div className={styles.aboutImage}>
               <img src={aboutImage} alt="Quem Somos" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Seção Serviços */}
+      <section className={styles.servicesSection}>
+        <h2 className={styles.servicesTitle}>SERVIÇOS</h2>
+        <div className={styles.servicesGrid}>
+          <div className={styles.serviceCard}>
+            <img src={diagnosis} alt="Diagnóstico Automotivo Online" />
+            <h3>Diagnóstico Automotivo Online</h3>
+            <button className={styles.serviceButton}>Ver Mais</button>
+          </div>
+          <div className={styles.serviceCard}>
+            <img src={budget} alt="Orçamento Automatizado" />
+            <h3>Orçamento Automatizado</h3>
+            <button className={styles.serviceButton}>Ver Mais</button>
+          </div>
+          <div className={styles.serviceCard}>
+            <img src={maintenance} alt="Manutenção Preventiva" />
+            <h3>Manutenção Preventiva</h3>
+            <button className={styles.serviceButton}>Ver Mais</button>
+          </div>
+          <div className={styles.serviceCard}>
+            <img src={scheduling} alt="Agendamento de Serviços" />
+            <h3>Agendamento de Serviços</h3>
+            <button className={styles.serviceButton}>Ver Mais</button>
           </div>
         </div>
       </section>

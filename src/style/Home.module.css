@@ -1,0 +1,56 @@
+.home {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .heroSection {
+    background-image: url('../../public/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px; 
+  }
+  
+  .heroContent {
+    color: white;
+    text-align: right;
+  }
+  
+  .heroContent h2 {
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 6rem;
+  }
+  
+  .heroContent p {
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  
+  .discoverButton {
+    width: 156px;
+    height: 48px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+  }
+  
+  .discoverButton:hover {
+    background-color: #fff;
+    color: black;
+  }
+  
+  
+  

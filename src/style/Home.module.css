@@ -51,6 +51,118 @@
     background-color: #fff;
     color: black;
   }
+
+/* Seção Quem Somos */
+.aboutSection {
+  padding: 50px 10px; 
+  background-color: #161616;
+  color: #fff;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutTitle {
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.aboutBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  max-width: 90%;
+  width: 100%;
+}
+
+.aboutText {
+  flex: 1;
+  padding-right: 10px;
+}
+
+.aboutText h2 {
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.aboutText p {
+  font-family: "Bevan", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.aboutImage img {
+  max-width: 750px;
+  height: auto;
+  border-radius: 8px;
+}
+/* Seção Sobre Nós */
+.aboutSection {
+    padding: 50px 10px; 
+    background-color: #161616;
+    color: #fff;
+  }
   
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
+  .aboutTitle {
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
   
+  .aboutBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 90%;
+    width: 100%;
+  }
+  
+  .aboutText {
+    flex: 1;
+    padding-right: 10px;
+  }
+  
+  .aboutText h2 {
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .aboutText p {
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .aboutImage img {
+    max-width: 750px;
+    height: auto;
+    border-radius: 8px;
+  }  

@@ -5,6 +5,8 @@ import diagnosis from '../../../public/diagnosis.png';
 import budget from '../../../public/budget.png';
 import maintenance from '../../../public/maintenance.png';
 import scheduling from '../../../public/scheduling.png';
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import  memberAntonio  from '../../../public/Antonio.jpg'
 
 
 const Home: React.FC = () => {
@@ -66,6 +68,27 @@ const Home: React.FC = () => {
             <img src={scheduling} alt="Agendamento de Serviços" />
             <h3>Agendamento de Serviços</h3>
             <button className={styles.serviceButton}>Ver Mais</button>
+          </div>
+        </div>
+      </section>
+
+      {/* Seção Equipe */}
+      <section className={styles.teamSection}>
+        <h2 className={styles.teamTitle}>EQUIPE</h2>
+        <div className={styles.teamCard}>
+          <img src={memberAntonio} alt="Membro da Equipe" className={styles.teamImage} />
+          <div className={styles.teamInfo}>
+            <h3 className={styles.teamName}>Antonio Caue</h3>
+            <p className={styles.teamRm}>RM: 558891</p>
+            <p className={styles.teamClass}>Turma: 1TDSPG</p>
+            <div className={styles.socialLinks}>
+              <a href="https://github.com/ntncaue" target="_blank">
+                <FaGithub size={24} />
+              </a>
+              <a href="www.linkedin.com/in/ntncaue" target="_blank">
+                <FaLinkedin size={24} />
+              </a>
+            </div>
           </div>
         </div>
       </section>

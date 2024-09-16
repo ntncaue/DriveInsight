@@ -85,7 +85,7 @@ const Home: React.FC = () => {
               <a href="https://github.com/ntncaue" target="_blank">
                 <FaGithub size={24} />
               </a>
-              <a href="www.linkedin.com/in/ntncaue" target="_blank">
+              <a href="https://linkedin.com/in/ntncaue" target="_blank">
                 <FaLinkedin size={24} />
               </a>
             </div>

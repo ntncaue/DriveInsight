@@ -1,0 +1,40 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1e1e1e;
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .errorTitle {
+    font-family: 'Bevan', cursive;
+    font-size: 8rem;
+    margin: 0;
+    color: #0073b1;
+  }
+  
+  .errorSubtitle {
+    font-family: 'Bevan', cursive;
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+  
+  .errorMessage {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .errorLink {
+    color: #0073b1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .errorLink:hover {
+    text-decoration: underline;
+  }

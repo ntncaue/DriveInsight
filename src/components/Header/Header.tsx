@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './header.module.css';
+import styles from '../../style/Header.module.css';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 

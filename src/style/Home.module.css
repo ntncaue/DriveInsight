@@ -323,5 +323,242 @@
   .socialLinks a:hover {
     color: #0073b1;
     transform: scale(1.1);
+
   }
+  .contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #161616;
+    color: #fff;
+  }
+  
+  .contactContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    gap: 50px;
+  }
+  
+  .contactText {
+    flex: 1;
+  }
+  
+  .contactText h2 {
+    font-family: "Bevan", serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .contactText p {
+    font-family: "Bevan", serif;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .contactForm {
+    flex: 1;
+  }
+  
+  .formRow {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .formRow input, .formRow select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-family: "Bevan", serif;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    outline: none;
+  }
+  
+  .formRow select {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .contactForm textarea {
+    border: none;
+    border-bottom: 1px solid #fff;
+    resize: none;
+  }
+  
+  .contactForm button {
+    padding: 10px 20px;
+    font-family: "Bevan", serif;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contactForm button:hover {
+    background-color: #fff;
+    color: #161616;
+  }
+  -----------------------------
+  .contactContent {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contactForm, .contactText {
+      width: 100%;
+    }
+
+    /* Responsividade para laptops */
+@media (max-width: 1440px) {
+    .heroSection {
+      padding: 0 30px;
+    }
+  
+    .heroContent h2 {
+      font-size: 5rem;
+    }
+  
+    .heroContent p {
+      font-size: 1.25rem;
+    }
+  
+    .discoverButton {
+      width: 140px;
+      height: 44px;
+    }
+  
+    .aboutTitle, .servicesTitle, .teamTitle {
+      font-size: 2.5rem;
+    }
+  
+    .aboutText p, .serviceCard p, .teamCard p {
+      font-size: 0.875rem;
+    }
+  }
+  
+  /* Responsividade para tablets */
+  @media (max-width: 1024px) {
+    .heroSection {
+      padding: 0 20px;
+    }
+  
+    .heroContent h2 {
+      font-size: 4rem;
+    }
+  
+    .heroContent p {
+      font-size: 1rem;
+    }
+  
+    .discoverButton {
+      width: 120px;
+      height: 40px;
+      font-size: 12px;
+    }
+  
+    .aboutBody {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .aboutText {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .aboutImage img, .serviceCard, .teamCard {
+      width: 100%;
+    }
+  
+    .aboutTitle, .servicesTitle, .teamTitle {
+      font-size: 2rem;
+    }
+  
+    .aboutText p, .serviceCard p, .teamCard p {
+      font-size: 0.75rem;
+    }
+  }
+  
+  /* Responsividade para celulares */
+  @media (max-width: 768px) {
+    .heroSection {
+      justify-content: center;
+      padding: 0;
+    }
+  
+    .heroContent {
+      text-align: center;
+    }
+  
+    .heroContent h2 {
+      font-size: 3rem;
+    }
+  
+    .heroContent p {
+      font-size: 0.875rem;
+    }
+  
+    .discoverButton {
+      width: 100%;
+      height: 40px;
+      font-size: 14px;
+    }
+  
+    .aboutTitle, .servicesTitle, .teamTitle {
+      font-size: 2rem;
+    }
+  
+    .aboutText p, .serviceCard p, .teamCard p {
+      font-size: 0.75rem;
+    }
+  
+    .serviceCard, .teamCard {
+      flex-basis: 100%;
+    }
+
+    .contactContent {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .contactForm, .contactText {
+        width: 100%;
+      }
+  }
+  
+  /* Responsividade para celulares pequenos */
+  @media (max-width: 480px) {
+    .heroContent h2 {
+      font-size: 2.5rem;
+    }
+  
+    .heroContent p {
+      font-size: 0.75rem;
+    }
+  
+    .discoverButton {
+      width: 100%;
+      height: 36px;
+      font-size: 12px;
+    }
+  
+    .aboutTitle, .servicesTitle, .teamTitle {
+      font-size: 1.5rem;
+    }
+  
+    .aboutText p, .serviceCard p, .teamCard p {
+      font-size: 0.625rem;
+    }
+
+    
+  }
+
   

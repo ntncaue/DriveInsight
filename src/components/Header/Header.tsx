@@ -17,10 +17,10 @@ const Header: React.FC = () => {
         <nav>
           <ul className={`${styles.navList} ${isMenuOpen ? styles.active : ''}`}>
             <li><Link to="/" className={styles.navLink}>Home</Link></li>
-            <li><Link to="/sobre-nos" className={styles.navLink}>Sobre Nós</Link></li>
-            <li><Link to="/servicos" className={styles.navLink}>Serviços</Link></li>
-            <li><Link to="/beneficios" className={styles.navLink}>Benefícios</Link></li>
-            <li><Link to="/equipe" className={styles.navLink}>Equipe</Link></li>
+            <li><a href="#sobre-nos" className={styles.navLink}>Sobre Nós</a></li>
+            <li><a href="#servicos" className={styles.navLink}>Serviços</a></li>
+            <li><a href="#equipe" className={styles.navLink}>Equipe</a></li>
+            <li><a href="#contato" className={styles.navLink}>Contato</a></li>
           </ul>
         </nav>
         <button className={styles.ctaButton}>Contato</button>

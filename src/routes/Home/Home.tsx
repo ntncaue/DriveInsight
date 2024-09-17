@@ -23,7 +23,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Seção Sobre Nós */}
-      <section className={styles.aboutSection}>
+      <section id='sobre-nos' className={styles.aboutSection}>
         <div className={styles.aboutContent}>
           <h2 className={styles.aboutTitle}>SOBRE NÓS</h2>
           <div className={styles.aboutBody}>
@@ -46,7 +46,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Seção Serviços */}
-      <section className={styles.servicesSection}>
+      <section id='servicos' className={styles.servicesSection}>
         <h2 className={styles.servicesTitle}>SERVIÇOS</h2>
         <div className={styles.servicesGrid}>
           <div className={styles.serviceCard}>
@@ -73,7 +73,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Seção Equipe */}
-      <section className={styles.teamSection}>
+      <section id='equipe' className={styles.teamSection}>
         <h2 className={styles.teamTitle}>EQUIPE</h2>
         <div className={styles.teamCard}>
           <img src={memberAntonio} alt="Membro da Equipe" className={styles.teamImage} />
@@ -93,12 +93,35 @@ const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* Seção Contato */}
+      <section id='contato' className={styles.contactSection}>
+      <div className={styles.contactContent}>
+        <div className={styles.contactText}>
+          <h2>Contato</h2>
+          <p>Para mais informações sobre atendimento ou serviços preencha o formulário para resposta por email ou nos ligue.</p>
+        </div>
+        <form className={styles.contactForm}>
+          <div className={styles.formRow}>
+            <input type="text" placeholder="Nome" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <div className={styles.formRow}>
+            <input type="text" placeholder="Telefone" />
+            <select defaultValue="">
+              <option value="" disabled>Localização</option>
+              <option value="br">Brasil</option>
+              <option value="us">Estados Unidos</option>
+              <option value="de">Alemanha</option>
+            </select>
+          </div>
+          <div className={styles.formRow}>
+          <input placeholder="Mensagem"></input>
+          </div>
+          <button type="submit" className={styles.contactForm}>Enviar</button>
+        </form>
+      </div>
+    </section>
     </main>
-
-
-
-    
- 
   );
 }
 export default Home;
